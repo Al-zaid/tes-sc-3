@@ -1075,7 +1075,7 @@ apt upgrade
 apt install git
 git clone https://github.com/aryanrtm/suRAT-cinta
 mv suRAT $HOME
-cd $HOME  suRAT-cinta
+cd $HOME suRAT-cinta
 sh suRAT.sh
 echo -e $green" Install Sukses Bro "
 fi
