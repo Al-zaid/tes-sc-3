@@ -168,6 +168,8 @@ echo -e $green"  54> Hacktronian"
 echo " ======================================================================> "| lolcat
 echo -e $green"  55> Spam SMS Unlimited "
 echo " ======================================================================> "| lolcat
+echo -e $green"   56> install suRAT cinta "                                      
+echo " ======================================================================> "| lolcat
 echo -e $green"  57> exit"
 echo " ====================================================================== "| lolcat
 echo -e $red""
@@ -1059,6 +1061,22 @@ git clone https://github.com/INDOnimous/ICTspam.git
 cd ICTspam
 sleep 1
 echo " -e $red" php ICTspam.php [Nomor Target] "
+echo -e $green" Install Sukses Bro "
+fi
+
+if [ $act = 56 ] || [ $act = 56 ]
+then
+clear
+figlet "mrruxhan Tools" | lolcat
+echo -e $green" Install Surat Cinta :v "
+sleep 1
+apt update
+apt upgrade
+apt install git
+git clone https://github.com/aryanrtm/suRAT-cinta
+mv suRAT $HOME
+cd $HOME  suRAT-cinta
+sh suRAT.sh
 echo -e $green" Install Sukses Bro "
 fi
 sleep 1
